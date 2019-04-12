@@ -7,12 +7,13 @@ import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { RecipieDetailComponent } from './recipes/recipie-detail/recipie-detail.component';
-import { RecipieItemComponent } from './recipes/recipie-list/recipie-item/recipie-item.component'
+import { RecipieItemComponent } from './recipes/recipie-list/recipie-item/recipie-item.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component'
 
 @NgModule({
   declarations: [
     AppComponent, 
-    HeaderComponent, RecipesComponent, RecipeListComponent, RecipieDetailComponent, RecipieItemComponent
+    HeaderComponent, RecipesComponent, RecipeListComponent, RecipieDetailComponent, RecipieItemComponent, ShoppingListComponent
   ],
   imports: [
     BrowserModule,
