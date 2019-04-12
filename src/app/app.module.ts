@@ -8,12 +8,19 @@ import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { RecipieDetailComponent } from './recipes/recipie-detail/recipie-detail.component';
 import { RecipieItemComponent } from './recipes/recipie-list/recipie-item/recipie-item.component';
-import { ShoppingListComponent } from './shopping-list/shopping-list.component'
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component'
 
 @NgModule({
   declarations: [
     AppComponent, 
-    HeaderComponent, RecipesComponent, RecipeListComponent, RecipieDetailComponent, RecipieItemComponent, ShoppingListComponent
+    HeaderComponent,
+    RecipesComponent, 
+    RecipeListComponent, 
+    RecipieDetailComponent, 
+    RecipieItemComponent, 
+    ShoppingListComponent, 
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule,
