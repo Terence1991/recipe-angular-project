@@ -1,11 +1,17 @@
-import { Component } from "@angular/core"
+import { Component, EventEmitter, Output } from "@angular/core"
 
-// test file
 @Component({
 selector: "app-header", 
 templateUrl: "./header.component.html"
 
 })
 export class HeaderComponent {
-
+@Output() featureSelected = new EventEmitter<string>(); 
+    
+    
+    onSelect(feature: string) {
+        console.log('this is working')
+        this.featureSelected.emit(feature)
+        console.log(feature);
+    }
 }

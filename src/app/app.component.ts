@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  loadedFeature: string = 'recpie'
 
+  onNavigate(feature: string) {
+    this.loadedFeature = feature;
+    console.log(this.loadedFeature)
+  }
 }
